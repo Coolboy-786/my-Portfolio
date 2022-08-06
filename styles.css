@@ -8,7 +8,7 @@ body{
 
 
 .sidebar{
-  position: absolute;
+  /* position: absolute; */
   background-color: #CFD2CF;
   /* width: 200px; */
   font-family: 'Fira Sans', sans-serif;
@@ -232,7 +232,15 @@ p{
 
 .project h2{
   padding: 5px;
+  font-size: 30px;
+  color: #2A0944;
+}
+
+.project h3{
+  padding: 5px;
   font-size: 25px;
+  color: #002B5B;
+  text-decoration: underline;
 }
 
 .projectContainer
@@ -241,7 +249,24 @@ p{
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
+  color: #B93160;
 }
+
+.projectContainer a:link{
+  background-color: white;
+  color: #231955;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.projectContainer a:hover{
+  background-color: #FFFFFF;
+  color: #3AB4F2;
+  text-decoration: none;
+}
+
 
 .sidebarGo{
   transform: translate(-443px, 0px);
